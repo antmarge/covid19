@@ -80,7 +80,8 @@ dat_clean <- dat %>%
 ggplot(dat_clean %>%
          group_by(county) %>%
          filter(as.character(date) == as.character(sip_date)) %>%
-         ungroup()) +
+         ungroup(),
+       aes(x = sip_date, y = cases, color = county)) +
   scale_y_log10() +
   geom_text_repel(aes(label = county),
                   box.padding = 1,
@@ -89,13 +90,14 @@ ggplot(dat_clean %>%
                   point.padding = 1,
                   arrow = arrow(length = unit(0.02, "npc"),type = "open")) +
   geom_point( pch = 22, stroke = 2, size = 3) +
+  guides(color = F) +
   scale_color_manual(values = cbbPalette) 
   
 
 
 
 
-ggplot(data = dat_clean,
+0ggplot(data = dat_clean,
          aes(x = days_since_threshold, y = cases, color = county)) +
     geom_line(size = 1) +
     #geom_point() +
@@ -196,3 +198,5 @@ ggplot(data = dat_clean,
          y = "Log(Cummulative Cases)")
   
   
+
+
