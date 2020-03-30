@@ -1,0 +1,10 @@
+county	state	major_city	
+Tippecanoe	Indiana	Lafayette
+Wayne	Michigan	Detroit
+Cook	Illinois	Chicago
+Hennepin	Minnesota	Minneapolis
+Marion	Indiana	Indianapolis
+Santa Clara	California	Palo Alto
+Harris	Texas	Houston
+Suffolk	Massachusetts	Boston
+Chayuga	Ohio	Cleveland

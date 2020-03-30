@@ -1,0 +1,13 @@
+county	state	stay_at_home_date
+New York City	New York	2020-03-20
+Santa Clara	California	2020-03-17
+San Francisco	California	2020-03-17
+Cook	Illinois	2020-03-20
+Marion	Indiana	2020-03-25
+Wayne	Michigan	2020-03-24
+Harris	Texas	2020-03-24
+Hennepin	Minnesota	2020-03-28
+King	Washington	2020-03-23
+Boston	Massachusetts	2020-03-24
+Cuyahoga	Ohio	2020-03-23
+District of Columbia	District of Columbia	2020-03-20

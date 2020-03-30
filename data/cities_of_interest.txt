@@ -1,0 +1,13 @@
+city	state
+New York City	New York
+Seattle	Washington
+Boston	Massachusetts
+San Francisco	California
+Cleveland	Ohio
+Stanford	California
+Indianapolis	Indiana
+Houston	Texas
+New Orleans	Louisiana
+Philadelphia	Pennsylvania
+Detroit	Michigan
+Chicago	Illinois
